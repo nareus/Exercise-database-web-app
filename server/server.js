@@ -8,8 +8,7 @@ app.use(cors());
 //connect
 const mongoose = require("mongoose");
 
-const url =
-  "mongodb+srv://narens:beatit@cluster0.crple.mongodb.net/exercises_list?retryWrites=true&w=majority";
+const url = "";
 
 mongoose
   .connect(url)
